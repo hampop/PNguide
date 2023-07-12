@@ -20,6 +20,9 @@ and if you want to use all of the dimension mods with pn and if you are getting 
 
 Roughly Enough IDs
 https://legacy.curseforge.com/minecraft/mc-mods/reid 
+___
+
+##  Performance mods
 
 now start with Performance mods if you are lagging or having drops frames 
 (note some of these need dependency mods installing as well - read their instructions)
