@@ -31,42 +31,42 @@ now start with Performance mods if you are lagging or having drops frames
 as well use Mixin 0.7-0.8 Compatibility some mods are old and may crash on you without this mod 
 https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility
 
-Foam​Fix (improves memory usage) 
+## Foam​Fix (improves memory usage) 
 https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod
 
 
 if you are still getting memory issue like if you have low ram like 4gb or 8gb ram the next mod will work better for you 
 
 
-VintageFix (improves memory usage and this mod replaces Foam​Fix) 
+## VintageFix (improves memory usage and this mod replaces Foam​Fix) 
 https://www.curseforge.com/minecraft/mc-mods/vintagefix
 
 
 
-TexFix (improves memory usage and will work with VintageFix and Foam​Fix)
+## TexFix (improves memory usage and will work with VintageFix and Foam​Fix)
 https://www.curseforge.com/minecraft/mc-mods/texfix
 
 
 TexFix is a bit outdated and there is a other mod that does the same thing as it and more 
 
 
-censoredasm (improves memory usage and will work with VintageFix and Foam​Fix and will not work with TexFix)
+## censoredasm (improves memory usage and will work with VintageFix and Foam​Fix and will not work with TexFix)
 https://www.curseforge.com/minecraft/mc-mods/lolasm
 
 
-燐/Hesperus (improves the lighting engine and this mod replace Phosphor)
+## 燐/Hesperus (improves the lighting engine and this mod replace Phosphor)
 https://www.curseforge.com/minecraft/mc-mods/hesperus
 
 
-Entity Culling
+## Entity Culling
 https://www.curseforge.com/minecraft/mc-mods/entity-culling [in this mod's own config, add in "lepidodendron" to be excluded from the ENTITIES list (but not the the TILE ENTITIES one)]
 
 
-Nothirium 
+## Nothirium 
 https://www.curseforge.com/minecraft/mc-mods/nothirium 
 
 
-Optifine
+## Optifine
 https://www.optifine.net/home 
 
 ## JVM
