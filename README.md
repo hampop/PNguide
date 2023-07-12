@@ -28,7 +28,8 @@ ___
 now start with Performance mods if you are lagging or having drops frames 
 (note some of these need dependency mods installing as well - read their instructions)
 
-
+as well use Mixin 0.7-0.8 Compatibility some mods are old and may crash on you without this mod 
+https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility
 
 Foam​Fix (improves memory usage) 
 https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod
