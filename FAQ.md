@@ -58,7 +58,7 @@ Wild Nature: Cedar
 Wild Nature: Fir
 Wild Nature: Pine 
 
-## 12) What will the future be for this mod?
+## 9) What will the future be for this mod?
 We will be adding dimensions for Jurassic, Cretaceous, Paleogene, Neogene and Pleistocene, and there will highly likely be knock-on effects in a little bit of overworld generation. The mod will include all the famous creatures and plants and everything you'd expect for all time periods, so no need to wonder if some extremely famous dinosaur will be in the mod, or whether we are doing the Cenozoic. The answer is yes. While we intend to complete the mod in 1.12.2, we also will be porting the mod to a more modern Minecraft version as well, but don't expect that any time extremely soon. 
 
 
