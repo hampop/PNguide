@@ -19,7 +19,7 @@ and if you want to use all of the dimension mods with pn and if you are getting 
 Roughly Enough IDs
 https://legacy.curseforge.com/minecraft/mc-mods/reid 
 
-now start with Performance mods if ou are lagging or having drops frames 
+now start with Performance mods if you are lagging or having drops frames 
 (note some of these need dependency mods installing as well - read their instructions)
 
 
@@ -61,6 +61,20 @@ https://www.curseforge.com/minecraft/mc-mods/nothirium
 
 Optifine
 https://www.optifine.net/home 
+
+
+and now the JVM 
+
+Xmx?G is the max ram to give minecraft and the Xms?x should be half of the max ram 
+
+you can change the G to m
+G = GB
+m = mb
+1024mb = 1Gb
+
+-Xmx8G -Xms4G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:ParallelGCThreads=2 
+
+
 
 
 
