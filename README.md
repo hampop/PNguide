@@ -1,7 +1,9 @@
 # PNguide
 a simple guide to make prehistoric nature run if you are having issues running it like lag, fps drops and other mods to make gameplay better
 
+___
 
+## basic 
 
 first start with the basic
 mod you need to make pn work (pn = prehistoric nature)
@@ -9,7 +11,7 @@ mod you need to make pn work (pn = prehistoric nature)
 LLibrary
 https://legacy.curseforge.com/minecraft/mc-mods/llibrary 
 
-Patchoul 
+Patchoul  
 https://legacy.curseforge.com/minecraft/mc-mods/patchouli/files/3162874 
 
 and if you want to use all of the dimension mods with pn and if you are getting a Id issue this should fix it as well (DO NOT USE notenoughids IT WILL CRASH)
