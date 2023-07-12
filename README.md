@@ -84,6 +84,32 @@ m = mb
 
 -Xmx8G -Xms4G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:ParallelGCThreads=2 
 
+## How do I change my RAM or JVM arguments?
+
+You probably want at least 4GB assigned to Minecraft to play the Prehistoric Nature mod.
+
+Using the Minecraft Launcher:
+- Click on "Installations" at the top
+- Hover over your installation and then click the three dots on the right -> Edit
+- More options (near the bottom)
+- In "JVM Arguments" you can add your new arguments or edit them
+- To allocate more RAM to the installation you need to edit the first thing you can see there beginning with -Xmx. The immediate next numbers before the space show the RAM. The format works so that to allocate 4GB you change this to say -Xmx4G
+- "Save" and play
+
+Using the Curseforge Launcher:
+If you need to edit the JVM arguments then follow the steps above after Curseforge launches the Minecraft Launcher. Note that Curseforge will not remember the JVM arguments next time - very annoying and you will need to put them again every time you open it.
+If you only need to edit RAM you can also do it like this:
+- Open your installation in the Curseforge App
+- Next to the play button at the top right, click on the three little dots -> Profile Options
+- Untick the "Use System Memory Settings" box
+- Slide the slider up to the amount of RAM you want to use
+- "Done" and play 
+
+https://github.com/hampop/PNguide/assets/87606666/09f0370f-8bf5-4cb8-88e2-c084cf598211
+
+https://github.com/hampop/PNguide/assets/87606666/8a84dd72-6592-4961-8789-de8c87af9c25
+
+
 
 
 
