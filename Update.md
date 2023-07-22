@@ -177,5 +177,116 @@ Bug fixes
 Rebalancing of spawns 
 
 
+# 21.0
+Addition of Cycas
+
+First iteration of a "prehistoric ground cover" concept: these blocks are live in this release although they are not 100% ideal at the moment: mostly in that they allow light through them. 
+
+
+# 22.0 
+Addition of all remaining cycads
+
+Upgrading of all saplings and shoots-in-the-inventory with improved textures
+
+A few tweaks to Agathis podzol config method
+
+Fixing a couple of bugs 
+
+# 22.1 
+Fixing a few issues with the spreading mechanic of Prehistoric Ground Cover blocks 
+
+
+# 23.0 
+Addition of Psaronius
+
+Code-improvements and recoding of saplings properly (finally!) 
+
+
+# 24.0 
+Addition of Dicroidium, Caytoniales and Dicksonia
+Improvement of Bunya fruit model and texture
+Improvement of Redwood log textures
+Removal of lighting shadows/glitches on some blocks
+Addition of random rotations to tree flowers & addition of Glossopteris strobilus
+Speed up of world-gen processing (avoiding running redundant loops!)
+Addition of experimental world-gen option in config
+
+Addition of a few missing wood recipes 
+
+
+# 25.0 
+Added Cordaites trees + woods, Sphenophyllales and Giant Horsetails
+
+Provided a few missing recipes
+
+Fixed Calamites saplings not sprouting 
+
+
+# 26.0 
+Addition of Cooksonia, Psilophyton, Asteroxylon and Prototaxites
+
++ a number of tweaks, fixes and improvements 
+
+
+# 26.1 
+Psilophyton and Cooksonia were dying faster than they could spread 
+
+# 27.0 
+Adjusting materials Psilophyton and Prototaxites can spread onto
+Recoding various leaves and shoots to prevent snow lying on them
+Correction of ambient occlusion error on Dicksonia shoot model
+Added Podozamites and Wattieza trees
+Addition of searchable tooltips on saplings
+
+NOTE: The Lepidodendron log tile entity name has changed - update anything which you were configuring with tile entity names! 
+
+
+# 27.1 
+Quick addition of a "genAllPlants" override in the config to make peoples' lives easier if they want to use it.
+
+NOTE: The Lepidodendron tile entity names have changed - update anything which you were configuring with tile entity names! 
+
+# 28 
+Addition of Valmeyerodendron, Proteas and Walchia
+Addition of fruiting cones for Monkey Puzzle and Cordaites Trees
+A few bug fixes 
+
+# 29.0 
+Addition of Lepidopteris, Baikalophyllum, Baiera, Scrambing Sphenophyllales, Claytosmunda, Isoetes, Wachleria, Scytophyllum, Aethopnylum, Hymenaea, Ancient Araucaria and Nelumbo
+Addition of fruiting cones for Ancient Arucaria and fruit mechanism for both Ginkgo plants
+Addition of Dominican amber and a set of blocks made from bricks of both types of amber bricks and petrified wood
+Various bugfixes and minor progressions and improvements 
+
+
+# 29.1 
+A few bugfixes to do with sapling/plant drops and harvesting flowers 
+
+
+# 30.0 
+Addition of some Alpia pine trees.
+
+Some bug fixes to do with plants not dropping enough to be propagatable when not using spores etc.
+
+Fixing of all trapdoor textures so hinges stay on the right sides, and sides render properly, etc.
+
+Allowing the "experimental word-gen" options in config to apply to modded biomes (though they will not reliably remove modded features from those biomes, at least it will allow this mod's plants to spawn densely in them if chosen to)
+
+Probably some other fixes for stuff I have now forgotten I fixed too. 
+
+
+# 30.1 
+Fixing some slabs bugs stopping you placing double-slabs with a couple of them
+
+Adding some logic to Nelumbo so it will re-sprout from underwater if the top is iced-over 
+
+
+# 30.2 
+Addition of some missing Alpia wood crafting recipes - very sorry this was missed! 
+
+
+
+
+
+
 
 
