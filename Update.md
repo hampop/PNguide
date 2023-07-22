@@ -75,4 +75,107 @@ Bug-fix so that trees' expanded bases can replace snow layers, etc.
 # 10.1 
 Make a lower limit for height of Ginkgoes at 10 blocks (they were generating at stupidly small heights) 
 
+# 11.0 
+Further darkening of redwood textures
+
+Addition of Agathis tree 
+
+# 12.0 
+Addition of the Monkey Puzzle tree (a sort of mashup of two extant species of Araucaria)
+
+Big improvements to the generation of the very-large-variant Ginkgo trees
+
+Slight reduction of the highest possible Magnolia height 
+
+# 13.0 
+Bugfix to ensure that breaking logs sets off leaf-decay properly.
+Addition of Bunya and Columnar Araucaria trees, and Bunya fruit-drop mechanism.
+Improvement of Monkey Puzzle Araucaria leaf texture and slight reduction of leaf density on that tree.
+Hiding of Monkey Puzzle fruit concept for the moment: those trees only drop saplings again for now.
+Tweaks to default biome-requirements for a few trees.
+Addition of biome overrides for tree generation in the config.
+
+========
+
+NOTE: Refresh and re-confirm your config settings!
+
+======== 
+
+# 14.0
+Addition of the simple Tempskya tree-fern-like plant
+
+Reduction in possible max height of Bunya by 5 blocks 
+
+# 15.0 
+Addition of four Bennettitales plants
+
+Addition of occasional less bulky variant of MonkeyPuzzle
+
+Addition of leaf variant for Tempskya
+
+Adjustment of spawning rules and volumes 
+
+# 16.0 
+Quick fix adding the missing Columnar Araucaria petrified sapling - apologies! 
+
+
+# 16.1 
+Quick fix adding the missing Columnar Araucaria petrified sapling - apologies! 
+
+# 16.2 
+Saplings now drop at a more sustainable rate from plants
+
+Sahnioxylon generation improved again
+
+Occasional missing Sigillaria shoots now generate properly
+
+=====
+
+This update-fix is only needed server-side 
+
+# 17.0 
+Addition of Calamites plants
+
+Addition of a few more random textures for the Tempskya leaves
+
+Prevention of error-messages from the BetterFoliage mod (Better Foliage is supported for leaves, but is not for this mod's logs)
+
+A few small bug fixes 
+
+# 18.0 
+Addition of Sciadopitys and Araucarioxylon trees
+
+Addition of Baltic amber and Petrified Araucarioxylon and associated blocks
+
+Addition of config option to manage what logs bear resin
+
+Tweak to Calamites spreading mechanism (they should not try to generate within a few few blocks of an existing plant now)
+
+Added missing recipes (mostly fences/gates)
+
+# 18.1 
+Addition of bricks from Baltic Amber and Petrified Wood 
+
+
+# 18.2
+BUG FIX
+
+Fix NullPointerException error when you right-click on some blocks from other mods 
+
+
+# 19.0 
+Addition of Pleuromeia
+
+A few extra default config additions to help integrate BiomesOPlenty and other mods 
+
+
+# 20.0 
+Addition of three new cycads
+
+Bug fixes
+
+Rebalancing of spawns 
+
+
+
 
