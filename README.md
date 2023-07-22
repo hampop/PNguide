@@ -1,7 +1,7 @@
 # PNguide
 a simple guide to make prehistoric nature run if you are having issues running it like lag, fps drops and other mods to make gameplay better
 
-go here for FAQ [**FAQ**](FAQ.md)
+go here for [**FAQ**](FAQ.md) and for every update changelog [**changelogforeveryupdateofpn](Update.md)
 ___
 
 ## basic 
