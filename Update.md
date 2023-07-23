@@ -284,6 +284,132 @@ Adding some logic to Nelumbo so it will re-sprout from underwater if the top is 
 Addition of some missing Alpia wood crafting recipes - very sorry this was missed! 
 
 
+# 31.0 
+Added Komlopteris, Gigantopterid, Medullosales and Baragwanathia
+General improvements to plant spreading logic
+Some other bugfixes 
+
+
+# 32.0 
+Addition of Primaeval Pine (Bristlecone Pine)
+
+Fixing various bugs and irritations to do with models, textures and snowfall
+
+Additional of altitude-specific spawning
+
+Expansion of Config to fully control spawning by users
+
+Completion of all seed and pollination propagation methods in the mod (fruit/cones still to do)
+
+------
+
+I SUGGEST YOU BACKUP AND THEN DELETE YOUR LEPIDODENDRON.CFG CONFIG FILE AND ALLOW THE MOD TO RECREATE IT - THEN TWEAK IT BACK TO WHAT YOU WANTED 
+
+
+# 32.1 
+Rebalancing seed/flower drops
+
+Missing recipes supplied
+
+Spiny cycad now only hurts players and villagers
+
+Added support for Jurassic World Reborn to config (backup and then delete your lepidodendron.cfg config file and allow it to regenerate to obtain this, and then re-tweak it to how you want) 
+
+
+# 33.0 
+Revision and seperating out of prehistoric ground cover into ground and cover with bonemeal effects
+Addition of mossy prehistoric stone and ancient moss
+Addition of Matonia ferns, Hironoia plants, Archaeopteris trees and Dollyphyton
+Revision of Alpia trees to help leaf blocks to decay better
+Addition of Archaeopteris and Calamites thatch (to be polished in future releases)
+Tweaks and fixes to minor small things 
+
+
+# 33.1 
+Fixing thatch recipes and adding Psaronius thatch and polishing it a bit
+
+Adding smelting-to-charcoal recipes for logs
+
+Addition of Columnar Araucaria fruits
+
+Fixing Alpia and Columnar Araucaria leaf decay issue (removal of helper blocks) 
+
+
+# 34.0 
+More accurate Dollyphyton spreading mechanism
+Correct rendering of mosses and Dollyphyton extended textures on nearby surfaces
+Provision of log smelting recipes for charcoal
+Development of thatch behaviour, changing recipes, addition of all corners, adjustment of textures and addition of decorative composite thatch blocks
+Further adjustment of Columnar Araucaria and Alpia to assist leaf-decay properly
+Addition of Rhacophyton, Cinnamon Fern, Osmunda, Stauropteris, Neuropteridium and Nilssoniocladus
+Addition of a few more fruiting cones
+Increased frequency of Hironoia flowers and slightly increased their pollination chance
+Couple of small bug fixes and item rendering issues 
+
+
+# 35.0 
+Addition of Dawn Redwoods and Agathis fruiting cones
+
+Preliminary addition of (creative-only) resin fluid
+
+Making Asteroxylon plants passable
+
+Probably a few minor fixes too 
+
+
+# 36.0 
+Revised Gigantopterid textures
+Addition of Alethopteris and Maple trees, Marattia, Guangdedendron, Edwardsiphyton and Ephedra
+Given shoots and non-block-type leaves zero opacity
+Made Isoetes and Baragwanathia passable blocks
+Adjustment to the way plant groupings and density work in world-gen (to make it a bit more varied) 
+
+
+# 37.0 
+Added Artocarpus (breadfruit) tree, Ladinia cycads, Archaefructus, Equisites, Water Horsetail, Wood Horsetail, Field Horsetail, Umaltolepis, Sphenopteris, Tyrmia and Wielandiella.
+New texture for Osmunda fern.
+Added Maple seeds.
+Added vanilla-style hay thatch.
+Added config options to restrict plants spreading with bonemeal if desired, and a settable global percentage chance of spreading in all situations.
+Added vanilla-style random horizontal block offsets for small plants.
+Guangdedendron made into a waterside plant (like sugarcane) and changed spawn biome types for it.
+Some plants reclassified more accurately in their tooltips.
+Resin bottles now have empty glass bottles defined as their container items, so they return an empty glass bottle if used in any recipe. 
+
+
+# 37.1 
+Supply two missing horsetail propagation recipes 
+
+
+# 38.0 
+Add Pachypteris plants, Southern Beech trees and massive-trunked Agathis rarer variant.
+Added red and green algae mats, red tufted algae and green chara algae (all underwater).
+Added doors for Lepidodendron, Glossopteris, Komlopteris and Diaphorodendron (so far).
+Removal of all redundant inventory items for non-obtainable/multiblock-structure blocks, so no need for JEI backlist any more.
+You can now jump out of (creative-only) resin. 
+
+
+# 39.0 
+Fixing a couple of glitches
+
+Addition of more algae and kelps
+
+Dividing algae/kelp into marine and freshwater types for spawning purposes 
+
+
+# 40.0 
+Added Neocalamites, Brachyphyllum trees, Primaeval Yew trees, Nathorstiana and Omphalophloios plants
+Added sponges and stromatolites
+Added config control for algae
+Improved behaviour of Pachypteris
+Added doors for Sigillaria, Ginkgo and all coniferous trees, and fixed door code for existing doors
+Added all fruits/cones for all coniferous trees
+Added/fixed some missing recipes
+Changed leaf rendering mode for block leaves
+A few changes to the way algae/kelp spawn to try to avoid spawning on top of other mods' water plants
+Fixed "z-fighting" pixel flicker in Dicksonia and Archaeopteris shoots 
+
+
 
 
 
