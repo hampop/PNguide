@@ -953,7 +953,836 @@ Bugfix for fire not working.
 Made a few Devonian mobs more likely to spawn.
 
  
-Please see the main v.50 release for main release notes.
+Please see the main v.50 release for main release notes. 
+
+
+# 51.0 
+Gameplay:
+-----
+Bridges - click with a metal nugget or gem to apply a trim
+Benches - click with a metal nugget or gem to apply a trim
+Rope barriers - click with a metal nugget or gem to apply a trim - click with a dye to dye the rope - click with a rope to attach a rope
+Lamp
+Palaeontologist villager
+Biome-specific fishing (please report on whether this works for you - I am getting very uneven results)
+Bone wand easier to make and enchantment cheaper
+Respawner item
+Taxidermy - place raw meat drops into the various display options
+Cages
+Jars - catch small insects and things in jars and then freeze them to obtain full meat drops
+Palaeopedia book of mod contents - clickable on mobs and plants (plants not yet done)
+Breeding and tempting mechanics for mobs
+All water-living/amphibious mobs can be bucketed now if they are small enough
+Eggs can be removed from nests by right clicking
+Spore collection envelope now used for many seeds instead of the old method
+Black and white sandstone collections
+Lava rock collections
+Brownstone (collections not yet added)
+Apple orchards in overworld - optional config option exists to fully swap apples to apple trees and have oaks drop acorns instead
+You can now plant seeds direct into the ground
+You can click on petrified plants direct with the wand without using an item frame to hold then in
+Meteorites and meteoritic iron in the Precambrian (does not damage if creative mode is being used, but otherwise its damage is tied to the mobGriefing gamerule)
+Anthracite
+Increased zircon spawn
+Zircon glass - when blocks of this glass are used next to water and water plants they try to fix the nasty lighting effects and rednderinbg problems
+Ordovician and Silurian are now two dimensions
+New biomes and sub-biomes in Cambrian, Ordovician, Silurian, Devonian, Carboniferous and Permian
+New Triassic dimension
+Nautiloid shells
+Natural spawns can come in various ages
+Some remodelled and retetxured creatures
+Stick bundles
+Period-specific fossils now spawn in suitable layers underground in the overworld and dimensions (currently they drop only plant fossils - if plants existed in the period they belong to)
+
+ 
+
+New Mobs:
+-----
+adelophthalmus
+aeger
+allenypterus
+antarcticarcinus
+antineosteus
+archaeocidaris
+archosaurus
+arizonasaurus
+ascendonanus
+astraspis
+atopodentatus
+aulacephalodon
+aulacoceras
+austriadactylus
+austrolimulus
+balanerpeton
+barbclabornia
+batrachotomus
+beishanichthys
+birgeria
+birkenia
+blourugia
+bobasatrania
+boothiaspis
+branchiosaur
+brembodus
+brochoadmones
+bunostegos
+cacops
+caelestiventus
+calvapilosa
+canadia
+captorhinus
+carolowilhelmina
+cartorhynchus
+casineria
+caturus
+caviramus
+ceratodus
+chinlea
+cidaroida
+clevosaurus
+clydagnathus
+cobelodus
+coelophysis
+coelurosauravus
+cooperoceras
+crassigyrinus
+ctenospondylus
+cyamodus
+cymbospondylus
+cynognathus
+daedalichthys
+dapedium
+dasyceps
+datheosaurus
+deltoptychius
+desmatosuchus
+diplocaulus
+diploceraspis
+doryaspis
+dorypterus
+drotops
+dvinosaurus
+ebenaqua
+edaphosaurus
+effigia
+elginia
+enoploura
+eoraptor
+eorhynchochelys
+eosaurichthys
+ericixerxes
+erythrosuchus
+euchambersia
+eudimorphodon
+euparkeria
+falcatus
+feroxichthys
+foreyia
+gabreyaspis
+gantarostrataspis
+glaurung
+groenlandaspis
+haikouichthys
+harvestman
+helianthaster
+heliopeltis
+helmetia
+henodus
+herrerasaurus
+holonema
+hungioides
+hybodus
+hyperodapedon
+hypsognathus
+italophlebia
+jonkeria
+keichousaurus
+laccognathus
+lanceaspis
+lebachacanthus
+lessemsaurus
+liliensternus
+limulid
+lisowicia
+lituites
+lochmanolenellus
+lonchidion
+lotosaurus
+luoxiongichthys
+lystrosaurus
+mastodonsaurus
+mcnamaraspis
+megactenopetalus
+megalograptus
+meganeura
+meganeura_nymph
+megazostrodon
+melosaurus
+montecaris
+morganucodon
+mussaurus
+nipponomaria
+nothosaurus
+opolanka
+orodus
+orthrozanclus
+osteolepis
+palaeoniscum
+palaeontinid
+panderodus
+pantylus
+panzhousaurus
+paranaichthys
+parapeytoia
+paratarrasius
+parhybodus
+pelurgaspis
+phragmoceras
+placerias
+plateosaurus
+poposaurus
+postosuchus
+pristerognathus
+proburnetia
+profallotaspis
+protozygoptera
+protozygoptera_nymph
+pseudotherium
+purlovia
+pygopterus
+rautiania
+rebellatrix
+retifacies
+saurichthys_freshwater
+saurichthys_marine
+sauroctonus
+saurosuchus
+scaumenacia
+sclerocormus
+scleromochlus
+semionotus
+shonisaurus
+shringasaurus
+sillosuchus
+smilosuchus
+smok
+snail_land
+sphenotitan
+spiniplatyceras
+stagonolepis
+stensioella
+suminia
+syllipsimopodi
+tanystropheus
+tartuosteus
+teleocrater
+tetraceratops
+thrinacodus
+thrinaxodon
+tiarajudens
+tiktaalik
+titanoptera_clatrotitan
+titanoptera_gigatitan
+titanoptera_mesotitan
+titanoptera_nymph
+trimerus
+turrisaspis
+tyrannophontes
+uranocentrodon
+urosthenes
+vancleavea
+varialepis
+vetulicola
+weigeltisaurus
+willwerathia
+yunguisaurus
+
+ 
+
+New Plants:
+-----
+Bumbudendron
+Lygodium
+Glossophyllum
+MonkeyPuzzleAraucaria
+Araucarites
+Pentoxylales
+Furcifolium
+Cypress
+Phoenicopsis
+Ginkgoites
+Archaeanthus
+Cycadopteris
+TreefernSilver
+TreefernBlack
+Frenelopsis
+Leptopteris
+EquisetitesReed
+Hermanophyton
+PachypterisReal
+Schmeissneria
+GrassyHorsetai
+Apple
+Dicroidium odontopteroides (uses textures formerly assigned to Komlopteris)
+Dicroidium elongatum
+Komlopteris (new blocks and remodel)
+Spaciinodum
+Slimy Algae 
+
+
+# 51.1 
+Fixes for zircon glass connected textures
+Addition of Mighty Oak to spawning in config
+
+Addition of missing sea-bottom "sludge" block to Triassic
+
+Couple of minor tweaks/fixes
+
+
+PLEASE SEE THE MAIN v.51.0 RELEASE FOR FULL CONTENTS: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/3984351 
+
+
+# 51.2
+A few minor tweaks and fixes.
+
+
+Fixed a few lang entries
+
+Added missing baby texture for one mob
+
+Added rope barrier crafting recipe
+
+Fixed slight render glitch on rope barrier
+
+Extended rope barrier trim to match same as bridges and benches (added salt, sulphur and anthracite trim)
+
+ 
+PLEASE SEE THE MAIN v.51.0 RELEASE FOR FULL CONTENTS: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/3984351 
+
+
+# 51.3 
+More fixes:
+Fixing glass textures more
+
+Fixing some water plants decaying
+
+
+PLEASE SEE THE MAIN v.51.0 RELEASE FOR FULL CONTENTS: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/3984351 
+
+
+# 51.4 
+Bugfixes:
+
+Mussaurus babies texture and model tweaks
+
+Fix cages and jars breaking, dropping, and how they stack
+
+Display mounts, shells etc. work a little better when broken
+Missing lang entries for buckets added
+Various small fixes
+
+PLEASE SEE THE MAIN v.51.0 RELEASE FOR FULL CONTENTS: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/3984351 
+
+
+# 52.0 
+Addition of Revival processes and machines, plus creatures/plants as below.
+Splitting of mod into main mod plus separate dimension mods.
+Many bug fixes, adjustments, changes and improvements: too many to list.
+Check the config for new options.
+Back up your world before updating!
+
+ 
+
+Additions:
+
+
+Mobs:
+Ampyx
+Arctinurus
+Ascoceras
+Barameda
+Besanosaurus
+Bohemoharpes
+Cassinoceras
+Chotecops
+Eretmorhipis
+Fadenia Carboniferous
+Fadenia Permotriassic
+Gerrothorax
+Harpes
+Lonchodomas
+Metoposaurus
+Nahecaris
+Ogyginus
+Ornithoprion
+Parmastega
+Placodus
+Plectodiscus
+Skeemella
+Thecodontosaurus
+Torpedaspis
+Uralichas
+Urocordylus
+Weinbergina
+Whatcheeria
+Wingertshellicus
+Xinpusaurus
+
+ 
+
+Static creatures:
+Amblysiphonella sponge
+Orthid brachiopod
+Gigantoproductus brachiopod
+Spiriferid brachiopod
+
+ 
+
+Plants:
+Cephalotaxus
+Cunninghamia
+Sparse Araucaria
+
+ 
+
+Biomes:
+Permian Sponge Reef
+
+
+# 52.1
+Reduction of fps lag on Permian Sponge Reefs
+
+Tweak to code for servers
+
+ 
+
+Please see the main v.52.0 release for content and warnings
+
+
+# 52.2
+Optimisations and more bug fixes for this version.
+
+Support for new worldgen in the new updates to Carboniferous and Permian dimensions.
+
+Some initial added support for obtaining other modded mobs via our revival process.
+
+ 
+
+Please see the main v.52.0 release for content and warnings
+
+
+# 52.3 
+Optimisations and more bug fixes for this version.
+
+Remodel and re-animation of Smok.
+
+Adding Amentotaxus plant and several reef blocks for use in dimension development.
+
+Enabling all relevant Revival machines to require RF or not (check the config to enable this).
+
+Support for new worldgen in the new updates to Precambrian dimension.
+
+Finished basic support for obtaining other modded mobs via our revival process. More info will come later - but drop into the Discord server if you want to know how to do this
+
+ 
+
+Please see the main v.52.0 release for content and warnings
+
+
+# 52.4 
+Altering fluid name for Sulfuric Acid fluid to avoid clashes with other mods in modpacks using the same fluid registry name.
+
+ 
+
+Please see the main v.52.0 release for general release content and warnings 
+
+
+# 53.0 
+Taxidermy system finished: NOTE all your existing taxidermy will cease to work and will just display as meat items. See the in-game Palaeopedia for the new methods.
+Ore-gen adjusted
+Titanichthys remodel
+Dicroidium hughesii added
+Compat added to allow use of "Just a Few Fish" mod's tanks
+Lots of bugfixes
+
+# 53.1 
+A few more bugfixes for this release.
+
+ 
+
+Please see the main v.53.0 release for general release content and warnings
+
+
+# 53.2 
+And yet a few more (sorry) bugfixes for this release.
+
+ 
+
+Please see the main v.53.0 release for general release content and warnings
+
+
+# 54.0 
+v.54-BETA content:
+==================
+
+Fixed known bugs, including nesting AI and breaking issues.
+Added mechanic to click a mob with "nesting" to prompt them to make a nest (or even burrow) if they dont think they already have one.
+Added nest tracking to Palaeopedia book (click on nest block or mob with the book).
+Palaeopedia now needs you to shift-click to open it, to avoid it opening in error when interacting with mobs.
+Removed all cooked meats and replaced with a few generic cooked items.
+A few new useful blocks/items added.
+
+ 
+
+Mobs:
+-----
+Aetheolepis
+Aphnelepis
+Arduafrons
+Arthropleura
+Aspidorhynchus
+Balhuticaris
+Bundenbachiellus
+Dunyu
+Eastmanosteus
+Eryon
+Eugaleaspis
+Ivoites
+Lasanius
+Macromesodon
+Megalosaurus
+Neeyambaspis
+Notidanoides
+Ophthalmosaurus
+Pituriaspis
+Sphooceras
+
+Plus a couple of improved textures for some older content
+
+ 
+
+Plants:
+-------
+Clubmoss
+Flabellopteris
+Jurassic Horsetail
+Keraphyton
+Lepidophloios
+Lepidosigillaria
+Omprelostrobus
+Pietzschia
+Sublepidodendron
+
+ 
+
+Cambrian biomes list:
+---------------------
+Cambrian Craggy Wastes
+Cambrian Dusty Wastes
+Cambrian Estuary Lagoons
+Cambrian Gravels
+Cambrian Hilly Wastes
+Cambrian Moist Wastes
+Cambrian Ocean
+Cambrian Ocean Reefs
+Cambrian Ocean Shore
+Cambrian Wastes
+
+ 
+
+Ordovician biomes list:
+-----------------------
+Ordovicia Frozen Beach
+Ordovician Algal Reef
+Ordovician Barren Land
+Ordovician Beach
+Ordovician Bog
+Ordovician Bryozoan Reef
+Ordovician Craggy Wastes
+Ordovician Frozen Jagged Wastes
+Ordovician Frozen Land
+Ordovician Frozen Ocean
+Ordovician Frozen Shallow Ocean
+Ordovician Hilly Wastes
+Ordovician Icebergs
+Ordovician Icy Crevasse
+Ordovician Lagoons
+Ordovician Ocean
+Ordovician Shallow Ocean
+Ordovician Sponge Forest
+
+ 
+
+Silurian biomes list:
+---------------------
+Silurian Barren Land
+Silurian Beach
+Silurian Cooksonia Fields
+Silurian Coral Cleft
+Silurian Crinoid Garden
+Silurian Hilly Wastes
+Silurian Lagoons
+Silurian Lush Patch
+Silurian Rocky Ocean
+Silurian Sands
+Silurian Sandy BEach
+Silurian Sandy Ocean
+Silurian Shallow Ocean
+Silurian Silty Swamp
+Silurian Stromatoporoidea Reef
+Silurian Undulating Wastes
+
+ 
+
+Devonian biomes list:
+---------------------
+Devonian Barrier Reef
+Devonian Beach
+Devonian Brackish Waters
+Devonian Dead Reefs
+Devonian Dunes
+Devonian Forest
+Devonian Hot Springs
+Devonian Hypersaline Sinkholes
+Devonian Lycopsid Spinney
+Devonian Mountains
+Devonian Ocean
+Devonian Plateau
+Devonian Rocky Ocean
+Devonian Savanna
+Devonian Shallow Ocean
+Devonian Swamp
+Devonian Vale
+Devonian Wattieza Forest
+Devonian Wet Meadow
+
+ 
+
+Carboniferous biomes list:
+--------------------------
+Burnt-Out Carboniferous Swamp
+Carboniferous Beach
+Carboniferous Deep Ocean
+Carboniferous Estuary
+Carboniferous Gravelly Highlands
+Carboniferous Hills
+Carboniferous Marshland
+Carboniferous Ocean Escarpment
+Carboniferous Polar Desert
+Carboniferous Polar Desert Ice Spikes
+Carboniferous Polar Lakes
+Carboniferous Shallow Ocean
+Carboniferous Steppe
+Carboniferous Swamp 
+
+
+# 54.1 
+Bugfixes for v.54 - please see that main version for the changelog
+
+ 
+
+Fixes:
+
+Added missing Jurassic mobs to Acid Bath outputs (!)
+
+Fixed messy Keraphyton model
+
+Fixed fog rendering glitch at water-surface level when raining
+
+Added attempt for more shader compatibility
+
+Tidied a few sprites
+
+Added missing cooking recipes 
+
+
+# 54.2 
+Bugfixes for v.54 - please see that main version for the changelog
+
+
+
+Further bugfixes trying to fix fog-related fps drops. 
+
+
+# 55.0 
+v.55 content:
+==================
+
+Shoaling AI for fish
+Peridotite stone
+Bug fixes and game improvements
+
+New trial "aggressive/territorial" AI for Megalosaurus, Saltriovenator, Smok and Postosuchus (don't get too close!)
+
+ 
+
+Mobs:
+-----
+Asteracanthus
+Brindabellaspis
+Bungartius
+Camuropiscis
+Ceratiocaris
+Climatius
+Cometicercus
+Concavicaris
+Cowralepis
+Ctenurella
+Diplacanthus
+Dollocaris
+Draconichthys
+Endothiodon
+Entelognathus
+Fallacosteus
+Gogonasus
+Goodradigbeeon
+Gooloogongia
+Griphognathus
+Gymnotrachelus
+Kujdanowiaspis
+Lepidotes
+Leptolepis
+Materpiscis
+Microbrachius
+Miguashaia
+Muensterella
+Nerepisacanthus
+Oxyosteus
+Phyllolepis
+Piranhamesodon
+Redfieldius
+Rhadinacanthus
+Rhamphodopsis
+Rolfosteus
+Rubidgea
+Saltriovenator
+Schugurocaris
+Silurolepis
+Tegeolepis
+Thrissops
+Turboscinetes
+Warneticaris
+Wuttagoonaspis
+
+ 
+
+Trigonotarbid remodel/texture/animatons
+
+ 
+
+Plants:
+-------
+Scrubby Pine
+
+# 55.1
+Hotfixes for v.55
+
+Please see the main v.55 update file for changelog: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/4426963
+
+
+# 55.2
+Additional Japanese language and a few broken icons/dict entries for v.55
+
+Please see the main v.55 update file for changelog: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/4426963
+
+
+# 55.3 
+Fixing inter-mod compatibility drops from the Acid Bath, so that FA and Reborn (etc) compats actually work (!)
+
+ 
+
+Please see the main v.55 update file for changelog: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/4426963
+
+
+# 55.4 
+Fixing some glitches with revival equipment blocks which could crash a server.
+
+Further Japanese language additions.
+
+ 
+
+Please see the main v.55 update file for changelog: https://www.curseforge.com/minecraft/mc-mods/prehistoric-nature/files/4426963 
+
+
+# 56.0 
+v.56 release notes:
+
+Plants:
+
+Water Clover
+Acrocomia Palm
+Phoenix Palm
+Nypa Palm
+Pelourdea
+Sphenoecium (will generate in Cambrian without needing Cambrian mod update)
+
+ 
+
+Palm thatch
+
+ 
+
+Loads of bug fixes
+
+ 
+
+Mobs:
+
+Dryosaurus
+Dysalotosaurus
+Strobilodus
+Stethacanthus
+Chaoyangsaurus
+Hualianceratops
+Yinlong
+Xuanhuaceratops
+Vachonisia
+Furca
+Tomlinsonus
+Proganochelys
+Silesaurus
+Kentrosaurus
+Panguraptor
+Mixosaurus
+
+Atopodentatus (retexture only)
+
+ 
+
+Floor Taxidermy Additions:
+
+Akmonistion
+All 16 New Mobs 
+
+
+# 56.1 
+Minor bugfix. Please see main v.56 release for content. 
+
+
+# 56.2 
+Further bug fixes for missing plant worldgen and config.
+
+Please see main v.56 release notes 
+
+
+# 57.0 
+Addition of three plants, and a fairly urgent small bug fix:
+
+ 
+Elatocladus
+Nehvizdyella
+Pagiophyllum 
+
+
+# 67.1 
+Bug fix for Proganochelys spawning crash on server 
+
+
+# 57.2 
+Bug fix for Acid Bath
+
+ 
+
 
 
 
