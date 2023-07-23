@@ -409,6 +409,551 @@ Changed leaf rendering mode for block leaves
 A few changes to the way algae/kelp spawn to try to avoid spawning on top of other mods' water plants
 Fixed "z-fighting" pixel flicker in Dicksonia and Archaeopteris shoots 
 
+# 41.0 
+Added Utrechtia trees, Pterophyllum and Quasistrobus plants, and another seaweed
+Added three new dimensions (Ordovician-Silurian, Devonian and Carboniferous)
+Added config options and a simple mob-spawner method via config
+Added a few prototaxites items and blocks
+Added Carboniferous mud
+More fixes for spreading plants
+Added a proper stromatolite inventory texture
+Added some missing recipes
+A few tweaks to how the "helper" leaf-decay works for extended leaves on complex trees
+
+
+# 41.1
+HOTFIX:
+
+Mod dimension ocean fix, changing flowing water to static water!
+
+Added the missing right-click seed-collection to Quasistrobus 
+
+
+# 42.0 
+Added Selaginella, Primaeval Grass, Cobbania, Elkinsia, Callistophytales, Pseudobornia, Adoketophyton, Zosterophyllum, Foozia, Pertica, Tetraxylopteris, Tmesipteris, Ankyropteris and Odontopteris plants
+Added Magnolia, Bothrodendron and Calamites doors, and retextured Calamites trapdoor
+Added Prototaxites blocks and edible/cookable Prototaxtites chunks
+Added Carboniferous mud blocks and adobe bricks
+Updated all dimensions with new plants and tweaked them
+Added attempted fix to make portals spawn above ground wherever possible
+Registered a few more Oredicts
+Probably some other stuff which was asked for or needed doing too 
+
+
+# 42.1 
+Made Cobbiana shearable
+
+Fixed Tmesipteris falling when its connection block is removed
+
+Fixed world-gen for all plants which grow like sugarcane
+
+Fixed placement of Pseudobornia with respect to water
+
+Added missing language entry for Primeval Grass 
+
+
+# 43.0 
+Added Schizoneura and Palaeostachya plants
+Added Acanthodes, jellyfish and Bothriolepis aquatic mobs
+Overhauled mob-spawner for the custom dimensions [you may need to delete your config and re-set it to work it]
+Added Archaeopteris door
+Sorted out various bugs 
+
+
+# 44.0 
+Added creatures Arandaspis, Cyrtoceras, Pteraspis and Eurypterus; and shrunk Bothriolepis
+Added Noeggerathiales and two Archaeo-banksia plants
+Added fire sponge and three rugose corals
+Added variant textures for corals, sponges and algae for when they attach to a vertical surface.
+Adeed a set of new world-gen and building blocks: creative-only at this stage (some recipes are probably missing too)
+Changed a load of recipes to be OreDict-driven
+Sandy Prehistoric Ground only works with vanilla (white) sand, not red sand
+
+Revised package structure of mod project (if you were referring to class names within this mod anywhere else you will need to revise them all - sorry! - see the Betterfoliage config on the front page as an example) 
+
+
+# 44.1 
+All as per the main v44.0 but a few minor bug fixes you may want to pick up - sorry! 
+
+
+# 44.2 
+Fix for multiplayer-servers, where spawning wasn't working and was generating errors. 
+
+
+# 44.3 
+Another major entity-rendering glitch fixed.
+
+
+# 45.0 
+Note the update will tell you items are missing. That’s fine. You might lose the listed items if you have any in chests but I severely doubt anyone does.
+
+Plants: Protolepidodendronopsis + Palaeognetaleana
+Jellyfish: Anthracomedusa [and supported translucency in the other jellyfish]
+Fish: Sacabambaspis, Hibernaspis, Promissum, Furcacauda + Squatinactis
+Trilobites: Asaphus, Cheirurus, Isotelus, Terataspis + Walliserops
+Eurypterids: Hibbertopterus (amphibious)
+Ammonites: 11 of them!
+Land Arthropods: Eoarthropleura + Pneumodesmus
+Doors: All except Hymenaea are now done
+Added ability to switch off tooltips in config
+Added Red Sandy Prehistoric Ground
+Adjusted the world gen of algae, sponges and rugosa corals so they attach to blocks sideways sometimes.
+Improved Prototaxites generation in the Ordovician-Silurian dimension
+Stabilised block-drops from Calamites and Archaeopteris so that the Devonan and Carboniferous dimensions are not so littered with dropped items
+Added some missing coal-smelting recipes for logs 
+
+
+# 45.1 
+A few bugfixes to this release 
+
+
+# 45.2 
+Fix for servers (sorry!) 
+
+
+# 46.0 
+REMEMBER IF YOU WANT THE NEW MOBS TO SPAWN... COME GET THE REVISED SPAWNING CONFIG FROM THE DISCORD: FORGE WONT UPATE YOURS BY ITSELF 
+
+Plants: Bolbitis (underwater) fern
+Fish: Poraspis and Qilinyu
+Insects: Palaeodictyoptera and their nymphs
+Nautiloids: Aphetoceras, Cameroceras, Endoceras + Orthoceras
+Added various world-generated eggs and spawns for creatures, to be collected in buckets or phials.
+Fish, trilobites and nymphs can can be caught in buckets
+Eurypterids now grow from babies out of eggs
+Stopped trilobites getting out of water
+Added new rugosa coral (but I think no water is "yet" deep enough for to to generate!)
+Cobbania will now only go over water up to 8 blocks deep
+
+Various minor tweaks and fixes 
+
+# 46.1 
+Check main version notes please
+
+Fix 1: Fixed glass phial recipe 
+
+# 46.2 
+Check main version notes please
+
+Fix 2: Tweaks to some pathfinding and collision box treatment. Improvement of nbt caching. 
+
+
+# 47.0 
+Pick up the latest update... this s NOT the latest!
+
+ 
+
+----------
+
+REMEMBER TO EITHER DELETE YOUR CONFIG OR ELSE MANUALLY UPDATE IT FROM FILES HOSTED ON MY DICORD TO GET NEW CREATURES TO SPAWN!
+----------
+Added coral block reefs to the dimensions, some sea-sinkhole generation to Devonian and adjusted worldgen in Ordovician-Silurian
+Added resin extractor machine and removed old method of clicking on a tree
+Added the Cambrian (sponge portal) and Precambrian (stromatolite portal) dimensions
+Added egg drops for all nautiloids
+Added creatures: Arkarua, Aegirocassis, Ausia, Ateleaspis, Hemicyclaspis, Primocandelabrum, Bomakellia, Arborea, Cephalaspis, Charnia, Charniodiscus, Pambikalbae, Precambrian Jellyfish, Jaekelopterus, Mixopterus, Megarachne, Lunataspis, Selenopeltis, Pterygotus, Schinderhannes, Psarolepis, Amphibamus, Ichthyostega, Titanichthys and Limnoscelis
+Added plants: Taxodium trees, Zygopteridaceae and Tietea tree ferns, Emplectopteris, Nilssonia, Epiphytic Fern, Nystroemia, Polyspermophyllum and Trichopitys plants, and three new algae
+Added blocks: four new sponges, one tabulate coral, six crinoids, three cystoids, four Fenestella bryozoans, nine sea anemones and a Dendrograptus
+Slowed the spread of water plants
+Overidden foliage colours in Carboniferous dimension to improve colour palette
+Re-tinted Gigantopterids
+Re-textured Glossopteris woods
+Added loads of new palisades from the cycad-like logs
+Added loads of new thin fences from smaller branches and stems
+Added missing Hymenaea door
+Added ocean-bottoms to dimensions
+Made sponge generation a bit "clumpier", and rugosa generation even more so
+Spawner code changed, to limit spawns and lag a little
+Bits and bobs of fixes and tweaks 
+
+
+# 47.1 
+Please see main v.47 release notes:
+
+----------
+
+REMEMBER TO EITHER DELETE YOUR CONFIG OR ELSE MANUALLY UPDATE IT FROM FILES HOSTED ON MY DISCORD TO GET NEW CREATURES TO SPAWN!
+----------
+
+Fixes to spawner and config behaviour, and correcting some tooltips 
+
+
+# 48.0 
+REMEMBER TO EITHER DELETE YOUR CONFIG OR ELSE MANUALLY UPDATE IT FROM FILES HOSTED ON MY DISCORD TO GET NEW CREATURES TO SPAWN!
+----------
+
+
+v.48 release note:
+Ediacarans: Burykhia, Cloudina, Dickinsonia, Inaria, Coronacollina, Corumbella, Eoandromeda, Funisia, Haootia, Hapsidophyllas, Kimberella, Namapoikia, Parvancorina, Parviscopa, Spriggina, Swartpuntia, Stromatolite reefs, Tawuia, Thectardis, Tribrachidium, Ventogyrus, Yilingia + Yorgia
+Other Entities: Acutiramus, Ainiktozoon, Akmonistion, Attercopus, Belantsea, Campbellodus, Cladoselache, Coccosteus, Cyclonema, Didymograptus, Dracopristis, Furcaster, Gemuendina, Hyneria, Kalbarria, Maclurina, Monograptus, Onychodus, Palaeoisopus, Platysomus, Poleumita, Rhizodus, Tetragraptus, Thelodus, 6x Trigonatarbids, Tullimonstrum, Xenacanthus
+Plants: Alliopteris, Calamophyton, Cecropsis, Ctenis, Eremopteris, Ibyka, Leclercqia, Nemejcopteris, Rhynia, Pitys Tree, Primaeaval Podocarp Tree, Rellimia, Reticulopteris, Rufloria, Xenocladia, Zygopteris
+Crinoids and similar: Cupressocrinites, Escumasia, Petalocrinus, Pisocrinus, Pseudocrinites. Scyphocrinus, Siphonocrinus, Siphusauctum, 3x Blastoids, Vadarocrinus
+Algae: Green sprouting algae, Green stemmed algae, Grypania
+Archaeocyatha reef blocks in the Cambrian, and Cambrian world-gen adjusted
+Sticky versions of all falling blocks
+Added all cycad cones and seeds and simplified the code for cycad shoot models
+Adeed placeable ammonite shells (and Furcaster) as drops from the living adult creatures
+Added rippled sands (silk-touch, or toggleable with a hoe)
+Added red clay and bacterial crust
+Added plant fossils in (optional workldgen) and a fossil hammer to obtain petrified drops
+Renamed Zygopteridacea treefern to Symplocopteris
+Retextured Gangamopteris woods
+Made underwater plants, corals, etc less fussy about non-full water blocks (they ought to place underwater easier now)
+Improved detailing of Devonian world-generation
+Improved jellyfish movement (less sharp turns)
+
+Distributed items across multiple creative tabs (and for a new world the items should sort less randomly)
+Added palaeobotanist villager and house
+Added enchantment of time Reversal available from villager: must be applied to bone wand to open a portal
+An enchanted bone wand will now convert petrified plant in a frame to a real plant
+Bits and bobs of fixes and tweaks 
+
+
+# 48.1 
+MOSTLY A CONFIG OVERHAUL: PLEASE BACKUP AND THEN DELETE YOUR OLD CONFIG AND ALLOW THE MOD TO RE-GENERATE IT,
+AND THEN APPLY ANY CHANGES YOU REQUIRED
+HOPEFULLY THIS WILL BE THE LAST TIME THIS IS NECESSARY!
+--------------------------------------------------------------------------------------
+For content update see the main v.48 release notes
+
+Allowed config-adjustment of frequency of Palaeobotanist house
+Changed handling of spawning:
+- Default spawns are now simply "true" as a default
+- Added some optional default spawns for Fossils and Reborn mods ("false" as a default)
+- No need to use the complex spawner section itself for default spawns, but it's still there for anyone who wants to define their own rules
+Fixed texture of one of the Trigonotarbids
+Eoarthropleura and Pneumodesmus can now swim
+Various tooltips revised/added
+Recipes revised/added
+Missing spore-collections added
+Fixed spawn dimensions of some eggs
+Improved resin/spore rightclick interactions (may have been interfering with other mods' right-click interactions)
+Revised Zamites foliage textures
+A few other minor fixes
+
+
+# 48.2 
+Further bugfix for possible crashes - see v.48.0 and v.48.1 for general update contents 
+
+
+# 48.3
+Sorry folks..... another fix here to stop Trigonotarbids crashing servers.
+
+ 
+
+The contents are as per v.48.0 and v.48.1 release notes for full contents and instructions:
+
+
+--------------------------------------------------------------------------------------
+IF THIS IS YOUR FIRST UPGRADE TO v.48.1 OR HIGHER PLEASE BACKUP AND THEN DELETE YOUR OLD CONFIG AND ALLOW THE MOD TO RE-GENERATE IT,
+AND THEN APPLY ANY CHANGES YOU REQUIRED. HOPEFULLY THIS WILL BE THE LAST TIME THIS WOULD BE NECESSARY!
+--------------------------------------------------------------------------------------
+
+Allowed config-adjustment of frequency of Palaeobotanist house
+Changed handling of spawning:
+- Default spawns are now simply "true" as a default
+- Added some optional default spawns for Fossils and Reborn mods ("false" as a default)
+- No need to use the complex spawner section itself for default spawns, but it's still there for anyone who wants to define their own rules
+Fixed texture of one of the Trigonotarbids
+Eoarthropleura and Pneumodesmus can now swim
+Various tooltips revised/added
+Recipes revised/added
+Missing spore-collections added
+Fixed spawn dimensions of some eggs
+Improved resin/spore rightclick interactions (may have been interfering with other mods' right-click interactions)
+Revised Zamites foliage textures
+Ediacarans: Burykhia, Cloudina, Dickinsonia, Inaria, Coronacollina, Corumbella, Eoandromeda, Funisia, Haootia, Hapsidophyllas, Kimberella, Namapoikia, Parvancorina, Parviscopa, Spriggina, Swartpuntia, Stromatolite reefs, Tawuia, Thectardis, Tribrachidium, Ventogyrus, Yilingia + Yorgia
+Other Entities: Acutiramus, Ainiktozoon, Akmonistion, Attercopus, Belantsea, Campbellodus, Cladoselache, Coccosteus, Cyclonema, Didymograptus, Dracopristis, Furcaster, Gemuendina, Hyneria, Kalbarria, Maclurina, Monograptus, Onychodus, Palaeoisopus, Platysomus, Poleumita, Rhizodus, Tetragraptus, Thelodus, 6x Trigonatarbids, Tullimonstrum, Xenacanthus
+Plants: Alliopteris, Calamophyton, Cecropsis, Ctenis, Eremopteris, Ibyka, Leclercqia, Nemejcopteris, Rhynia, Pitys Tree, Primaeaval Podocarp Tree, Rellimia, Reticulopteris, Rufloria, Xenocladia, Zygopteris
+Crinoids and similar: Cupressocrinites, Escumasia, Petalocrinus, Pisocrinus, Pseudocrinites. Scyphocrinus, Siphonocrinus, Siphusauctum, 3x Blastoids, Vadarocrinus
+Algae: Green sprouting algae, Green stemmed algae, Grypania
+Archaeocyatha reef blocks in the Cambrian, and Cambrian world-gen adjusted
+Sticky versions of all falling blocks
+Added all cycad cones and seeds and simplified the code for cycad shoot models
+Adeed placeable ammonite shells (and Furcaster) as drops from the living adult creatures
+Added rippled sands (silk-touch, or toggleable with a hoe)
+Added red clay and bacterial crust
+Added plant fossils in (optional workldgen) and a fossil hammer to obtain petrified drops
+Renamed Zygopteridacea treefern to Symplocopteris
+Retextured Gangamopteris woods
+Made underwater plants, corals, etc less fussy about non-full water blocks (they ought to place underwater easier now)
+Improved detailing of Devonian world-generation
+Improved jellyfish movement (less sharp turns)
+
+Distributed items across multiple creative tabs (and for a new world the items should sort less randomly)
+Added palaeobotanist villager and house
+Added enchantment of time Reversal available from villager: must be applied to bone wand to open a portal
+An enchanted bone wand will now convert petrified plant in a frame to a real plant
+Bits and bobs of fixes and tweaks 
+
+
+# 49.0 
+Swamp horsetail
+
+
+New static organisms:
+----------
+
+Chaunograptus
+Dictyonema
+Xianguangia
+3x new tabulata coral blocks
+
+
+New moving organisms:
+----------
+
+CAMBRIAN:
+4 Cambrian jellyfish
+Acadoaradoxides
+Alacaris
+Amplectobelua
+Anomalocaris
+Banffia
+Batofasciculus
+Cambroraster
+Canadaspis
+Cheloniellon
+Diania
+Ellipsocephalus
+Elrathia
+Eoredlichia
+Facivermis
+Gemmactena
+Hallucigenia
+Herpetogaster
+Jianshanopodia
+Kerygmachela
+Kodymirus
+Laminacaris
+Lyrarapax
+Marella
+Metaspriggina
+Microdictyon
+Nectocaris
+Odaraia
+Odontogriphus
+Oesia/Margaretia
+Omnidens
+Opabinia
+Ottoia
+Paradoxides
+Paucipodia
+Pikaia
+Pomatrum
+Siberion
+Stromatoveris
+Synophalos (forms itself into chains)
+Tegopelte
+Thauamptilon
+Tokummia
+Wiwaxia
+Xenusion
+Yawunik
+Yohoia
+Yunnanozoon
+
+OTHER WATER:
+Basiloceras
+Carcinsoma
+Deiroceras
+Eglonaspis (buries itself)
+Gemuendina (buries itself)
+Gonioceras
+Heterosteus
+Kokomopterus
+Mimetaster (disguises itself with sponges)
+Pagea
+Parexus
+Temperoceras
+Vestinautilus
+Websteroprion (lives in a hole and attacks nearby entities - emerges in full if hole is broken in survival mode)
+
+LAND/WATER:
+Megalocephalus
+Spathicephalus
+
+LAND:
+4 Scorpions
+Hylonomus
+
+ 
+Updated Titanichthys model.
+Revised Orthoceras size.
+Tweaked Eurypterid attack AI.
+
+All creatures now try to lay eggs every 1-2 MC days. Some lay specific "block-like" eggs or spawn. Others drop an unidentified egg item (if you don't know what dropped it you won't know what it will hatch into).
+All block-like eggs and spawns are now collected with the egg-collection phial. No more shears.
+Eggs inside a phial can be emptied into the world direct now. No more crafting table hassle.
+Added rotten wood logs.
+Insect eggs are now found inside rotten wood or on Dollyphyton, Edwardisphyton, Ancient Moss and Selaginella (use a phial to extract).
+Hylonomus eggs are also found inside rotten wood but do not require a phial to collect (just break the wood).
+Added Wavy gravel.
+Finished design of the Cambrian dimension, tweaked a few others.
+Adjusted some amphibian AI.
+Made amber a 2x2 and not 3x3 recipe.
+Reduced cone drop amount from Sciadopitys leaves.
+Added Herbicide/Weedkiller.
+Added fish food to lure and revitalise the non-hunting creatures.
+Using a portal now sets your spawnpoint on the arrival side of the portal.
+Added overworld spawning of coral reef blocks with config options.
+All prehistoric seeds can now be planed direct into prehistoric ground (if it's suitable kind) to grow plants and saplings.
+Prehistoric seeds are no longer edible. Pine-types can be cooked into edible roasted pine nuts.
+Ephedra fruits replace seeds as the edible item, give a longer speed boost but do you more damage. 
+
+
+# 49.1 
+A few minor fixes and missing recipes etc.
+
+See v. 49.0 for the release contents note 
+
+
+# 49.2 
+A few more fixes to phials and eggs
+
+See v. 49.0 for the release contents note 
+
+
+# 50.0 
+v. 50: The Permian
+
+==================
+
+New plants:
+----------
+Anomozamites
+Arthropitys
+Beech
+Cladophlebis
+Clathropteris
+Coniopteris
+Dicroidium fremouwensis
+Dictyophyllum
+Furcula
+Ischnophyton
+Lesleya
+Lichen
+Macrotaeniopteris
+Mighty Oak
+Ortiseia
+Otozamites
+Petriellales
+Phasmatocycas
+Plane
+Ptilophyllum
+Sanmiguelia
+Scolecopteris
+Sphenobaiera
+Stiff cycad
+Sycamore
+Telemachus
+Thucydia
+Todites
+Tongchuanophyllum
+Wachtlerina
+Xihuphyllum
+
+Dead trees
+Rotten wood
+
+ 
+
+New moving organisms:
+----------
+Acanthostega
+Acanthostomatops
+Acrolepis
+Anteosaurus
+Archoblattina
+Bandringa
+Bushizheia
+Claudiosaurus
+Coelacanthus (breeds with food)
+Cotylorhynchus
+Crotalocephalus
+Dalmanites
+Diadectes
+Diictodon
+Dimetrodon
+Drepanaspis
+Dunkleosteus
+Dvinia
+Edestus
+Eosimops
+Eryops
+Estemmenosuchus
+Eusthenopteron
+Gerarus
+Gnathorhiza
+Gorgonops
+Gyracanthides
+Helicoprion
+Iniopteryx
+Inostrancevia
+Janassa
+Kaibabvenator
+Labidosaurus
+Listracanthus
+Lunaspis
+Lungmenshanaspis
+Meganeuropsis
+Menaspis
+Mesosaurus (breeds with food)
+Mooreoceras
+Moschops
+Ophiacodon
+Panderichthys
+Pederpes
+Phanerotinus
+Phantaspis
+Pharyngolepis
+Pholiderpeton
+Platycaraspis
+Platyhystrix
+Platylomaspis
+Prionosuchus
+Procynosuchus
+Prosictodon
+Proterogyrinus
+Rayonnoceras
+Remigiomontanus
+Cockroaches X3
+Robertia
+Saivodus
+Scutosaurus
+Sidneyia
+Sphenacodon
+Tapinocephalus
+Traquairius
+Vivaxosaurus
+
+ 
+Innumerable minor bugs and fixes and improvements.
+Added config option where appropriate mobs always attack players: attackPlayerAlways
+Fire now spreads much quicker and wider in the Carboniferous dimension.
+More bone drops when you kill adult animals who possess them.
+Hoes now turn coarse dirts into standard dirts.
+Added silty dirt, cracked mud, mud brocks and blocks.
+Changed Komlopteris strobilus texture.
+Improved AI and animations for various existing creatures.
+Addition of a half-populated Permian dimension and an empty Triassic dimension.
+Revision of all existing dimensions worldgen, added biomes and segregated them better.
+NOTE: MANY BIOMES ARE VERY, VERY BIG NOW! BE PREPARED TO TREK FOR A FEW DAYS (movement in the oevrworld moves you 10x further in the dimensions) 
+
+
+# 50.1 
+Minor temporary adjustment/fix for mobs taking unwanted damage in some situations (eg. when jumping out of holes): made all mobs immune to stuck-in-wall damage for the moment.
+
+Please see the main v.50 release for main release notes. 
+
+
+# 50.2 
+Bugfix for fire not working.
+
+Made a few Devonian mobs more likely to spawn.
+
+ 
+Please see the main v.50 release for main release notes.
 
 
 
