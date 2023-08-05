@@ -3,7 +3,7 @@ a simple guide to make prehistoric nature run if you are having issues running i
 
 go here for [**FAQ**](FAQ.md) and for every update changelog [**changelog**](Update.md)
 
- [**iceberg**](iceberg.md)
+ [**iceberg**](iceberg.md) [**Prehistoric Nature Animals list**](Prehistoric_Nature_Animals_list.md)
 ___
 
 ## basic 
