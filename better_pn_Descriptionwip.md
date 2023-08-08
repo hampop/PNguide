@@ -2,9 +2,26 @@
 # prehistoric nature integration is no longer needed  v. 53.0 and above and F&A will work fine now without the script now
 
 
+Introduction : This mod adds the entire prehistoric natural ecology to Minecraft. The main gameplay is to resurrect or capture prehistoric creatures. At the same time, you can make biological specimens and explore prehistoric dimensions. Including hundreds of accurate prehistoric animals and plants, you can download individual dimension mods to explore beautiful, unique multi-biotic prehistoric dimensions, each with precise details representing different periods of Earth's prehistory. This mod builds everything after in-depth research using the latest scientific publications, and the team includes paleontology professionals to ensure the models, textures and behaviors are as accurate as possible.
 
 
+Note: This mod currently has eight dimensions from Precambrian to Triassic and more than 500 creatures from Precambrian to Jurassic. Dimensions need to download a separate expansion to experience.
 
+Part of the gameplay introduction:
+
+There is a prehistoric encyclopedia in the module, right click + shift to open, you can look up biological information, you can also right click on animals and plants to get their accurate information or right click on the nest to see their owners.
+
+Resurrection gameplay:
+
+1. By adding other modules and modifying the script file, the creatures of this module can be resurrected through archaeology and fossils or Jurassic world rebirth. For details, please refer to curseforge.
+
+2. The biological resurrection can be carried out through the machines and items that come with the module. For details, please check the prehistoric encyclopedia in the game. Note: This resurrection method needs to be in version v.52.0 or later to take effect.
+
+This mod was formerly known as  Prehistoric Flora  .
+
+NOTE: if you want to use all the dimensions use Roughly Enough IDs/REID .
+
+Please try to use Vintagefix with this mod this will help ram usage dont use foamfix
 
 
 
