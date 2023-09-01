@@ -3,7 +3,7 @@ a simple guide to make prehistoric nature run if you are having issues running i
 
 go here for [**FAQ**](FAQ.md) and for every update changelog [**changelog**](Update.md)
 
- [**iceberg**](iceberg.md) | [**Prehistoric Nature Animals list**](Prehistoric_Nature_Animals_list.md) | [**PN lore**](PN_lore.md) | [**better pn Description wip**](better_pn_Descriptionwip.md) | [**SYSTEM REQUIREMENTS**](SYSTEM_REQUIREMENTS.md)
+ [**iceberg**](iceberg.md) | [**Prehistoric Nature Animals list**](Prehistoric_Nature_Animals_list.md) | [**PN lore**](PN/PN_lore.md) | [**better pn Description wip**](better_pn_Descriptionwip.md) | [**SYSTEM REQUIREMENTS**](SYSTEM_REQUIREMENTS.md)
 ___
 
 ## basic 
