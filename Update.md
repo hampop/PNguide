@@ -1781,6 +1781,354 @@ Bug fix for Proganochelys spawning crash on server
 # 57.2 
 Bug fix for Acid Bath
 
+
+# 58.0 
+Removal of a bunch of items and replacing with nbt-treatment to make the mod more streamlined. You will see a message about around 250 missing entries when you update: this is fine, although you might experience some missing items in chests or inventories: sorry about that if so.
+
+Addition of:
+--------
+Creature traps
+Submarine
+More advanced and interesting AI for some creatures
+Some creatures now herd and many young follow adults now
+Various creature re-animations and remodels
+Creature diets and spawns changed: creatures now target prey based on a proper diet
+Breeding items are now the same as diet items
+Diet data and habitat spawning data are now accurately displayed in the Palaeopedia (which will update itself if you provide custom spawns)
+Conceptual division of mobs into vertebrates and invertebrates
+Fossil sorter enhancement for sorting invertebrates
+Glass cases and jars now will be used only for land invertebrates/insects
+Display plinth has been discontinued (use a standard mount on the now-purely-decorative plinth)
+Various metal fences, sheets, doors and gates
+Improved placement mechanic for glass tiles
+New config option to only spawn plants in the overworld which still exist
+French and Japanese language support
+A gazillion bug fixes, qol improvements, tweaks, gentle massages, acupuncture sessions and regression therapy
+
+ 
+
+Overworld:
+--------
+Addition of Olive Grove biome
+
+ 
+
+Precambrian dimension mod:
+--------
+Addition of Hadean Creater Fields biome
+
+ 
+
+Carboniferous dimension mod:
+--------
+Addition of Cool Woodland biome and slight "greening" of the Steppe biome
+
+ 
+
+Permian dimension mod:
+--------
+Addition of Stony Lands and Depressions biomes
+Reconfiguring of Glossopteris biome concepts in a Temperate and Cold division
+
+ 
+
+Triassic dimension mod:
+--------
+Addition of Woodland, Sphenopteris and Polje biomes
+
+ 
+
+Plants/Statics:
+-------
+Actinidea
+Amborella
+Anemone
+Arid Pine
+Aristolochia
+Atli
+Banyan
+Bellendena
+Bisonia
+Botrychiopsis
+Buckthorn
+Buttercup
+Calycanthus
+Cedar
+Chestnut
+Chiropteris
+Chloranthus
+Daisy
+Dechellyia
+Drewria
+Drimys
+Elatocladus
+Embothrium
+Eoginkgoites
+Fig
+Frondose Archaic Algae [inspired by Tuanshanzia]
+Gansufructus
+Glass Sponge
+Golden Larch
+Gordonopteris
+Gunnera
+Hedera
+Hemp
+Hirmeriella
+Hops
+Hordyskia
+Hornwort
+Hydrangea
+Ilicium
+Irania
+Jerseyanthus
+Ktalenia
+Laurus
+Liquidambar
+Lomatia
+Microvictoria
+Mosacaulus
+Nataligma
+Nehvizdyella
+Nuphar
+Olive
+Orites
+Orontium
+Pagiophyllum
+Palissya
+Pandan
+Pelourdea
+Potamogeton
+Protognetum
+Rattan Palm
+Rehezamites
+Rhacopteris
+Seagrass
+Telopea
+Thuja
+Vitis
+Voltzia
+Yam
+Zingiberopsis
+
+Grypania remodel
+Tawuia remodel
+
+ 
+
+Mobs:
+--------
+Abrigramma
+Adamanteryon
+Aetheogramma
+Anaethalion
+Angelina
+Angustidontus
+Apochrysogramma
+Archaboilus
+Archocyrtus
+Athenaegis
+Bavariscyllium
+Bellinympha
+Belonostomus kochii (Jurassic)
+Belonostomus sp. (Cretaceous)
+Bishanopliosaurus
+Bobosaurus
+Cancrinos
+Carolinites
+Caryosyntrips
+Castorocauda
+Celtedens
+Cenoceras
+Ceratosaurus
+Cervifurca
+Chasmataspis
+Chunerpeton
+Ciurcopterus
+Clarkeiteuthis
+Clarkina
+Coccoderma
+Congophiopsis
+Congopycnodus
+Cordaticaris
+Cowielepis
+Cretapsychops
+Criocephalosaurus
+Cryolophosaurus
+Dakosaurus
+Daohugoucossus
+Decacuminaster
+Dendrocystites
+Dicranurus
+Docodon
+Dragonfly
+Duslia
+Echinochimaera
+Elasmodectes
+Elephantoceras
+Eocarcinus
+Eunotosaurus
+Eurhinosaurus
+Europasaurus
+Euspira
+Gasosaurus
+Geosaurus
+Gephyrostegus
+Gigantocapulus
+Gigantspinosaurus
+Grammolingia
+Greererpeton
+Guiyu
+Gyrodus
+Gyrosteus
+Hadronector
+Haldanodon
+Haplophrentis
+Harpacanthus
+Harpagodes
+Helenodora
+Hindeodus
+Homoeosaurus
+Hoplitaspis
+Horodyskia
+Hovasaurus
+Huayangosaurus
+Huiyingogramma
+Hupehsuchus
+Hurdia
+Iowacystis
+Iowagnathus
+Isanichthys
+Ischyodus
+Ithigramma
+Jamoytius
+Jeholotriton
+Kalligramma
+Kayentatherium
+Kaykay
+Kleptothule
+Kootenayscolex
+Kosmoceras
+Kulindadromeus
+Laccosmylus
+Laidleria
+Lepidaster
+Leviathania
+Liassopsychops
+Libys
+Lichenipolystoechotes
+Ligulella
+Macrosemius
+Makarkinia
+Marmolatella
+Marmorerpeton
+Mazothairos
+Mecochirus
+Megamastax
+Meganeurites
+Megistaspis
+Meioneurites
+Mesturus
+Metopacanthus
+Microcleidus
+Misikella
+Morrolepis
+Murex
+Myriacantherpestes
+Nerinea
+Olenellus
+Onychopterella
+Ophiopsis
+Ophthalmothule
+Oregramma
+Oreochima
+Orthocormus
+Ostenocaris
+Ozarkodina
+Palaeocarcharias
+Panacanthocaris
+Papilionichthys
+Paracestracion
+Paradapedium
+Paramblypterus
+Parameteoraspis
+Parnaibaia
+Passaloteuthis
+Perisphinctes
+Pezopallichthys
+Phialaspis
+Phillipsia
+Phlebolepis
+Phlegethontia
+Phorcynis
+Phytophilaspis
+Piatnitzkysaurus
+Platypeltoides
+Plectronoceras
+Polybranchiaspis
+Pricyclopyge
+Proconodontus
+Promexyele
+Propterus
+Proteroctopus
+Proterosuchus
+Protospinax
+Pseudorhina
+Psychopyge
+Pycnophlebia
+Quasimodichthys
+Rainerichthys
+Rhenocystis
+Rhinopteraspis
+Rhomaleosaurus
+Rutgersella
+Saccocoma
+Sanctacaris
+Saurostomus
+Scheenstia
+Sclerodus
+Shaihuludia
+Sibyrhynchus
+Siderops
+Slimonia
+Sokkaejaecystis
+Songaichthys
+Sophogramma
+Spathobatis
+Spiroceras
+Squaloraja
+Stahleckeria
+Stanocephalosaurus
+Stegosaurus
+Steurbautichthys
+Strombus
+Strudops
+Sylvohymen
+Symphysops
+Syringocrinus
+Tamisiocaris
+Tanycolagreus
+Tanyrhinichthys
+Tauraspis
+Temnodontosaurus
+Thalassiodracon
+Thanahita
+Trachymetopon
+Tribrachiodemas
+Triops
+Tritylodon
+Tuojiangosaurus
+Typhloesus
+Uarbryichthys
+Ursactis
+Utatsusaurus
+Vadasaurus
+Vampyronassa
+Villebrunaster
+Viviparus
+Yuxisaurus
+Zenaspis
+
+
  
 
 
