@@ -2129,6 +2129,19 @@ Yuxisaurus
 Zenaspis
 
 
+# 58.01 
+Addition of some missing Palaeopedia entries
+Addition of a few missing sounds
+Fixing speed of movement for some mobs
+Improving Olive Grove biome generation
+Additional partial language support for Danish, Ukrainian, Russian
+Support for two missing fossil skeletons
+A few accuracy adjustments
+A few bugfixes
+
+ 
+
+
  
 
 
